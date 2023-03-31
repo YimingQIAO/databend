@@ -17,7 +17,7 @@ CREATE USER <name> IDENTIFIED [WITH auth_type ] BY 'password_string'
 
 **Where:**
 
-```
+```sql
 auth_type: {
     double_sha1_password
   | sha256_password
